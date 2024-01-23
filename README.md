@@ -15,3 +15,24 @@ Durante o curso de testes automatizados com Cypress (básico), foi ensinado:
 - Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
 - Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
 - Como criar uma documentação mínima para seu projeto de testes automatizados
+
+## Pré-Requisitos
+
+Para rodar este projeto, é preciso:
+ * git
+ * npm
+
+ ## Instalando as dependências
+
+Para instalar e executar o projeto deve-se: 
+* Clone o repositório
+* Abra o terminal na pasta do projeto
+* Na raiz do projeto, execute o comando "npm install cypress@9.5.1 --save-dev" (ou npm i cypress@9.5.1 -D para a versão curta)
+
+
+ ## Passos para rodar os testes
+
+Para rodar os testes: 
+
+* Execute o comando "npm run cy:open" no terminal para abrir o projeto no Cypress
+* Execute o comando "npm run cy:run" no terminal para abrir o projeto em modo *headless*
